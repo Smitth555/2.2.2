@@ -1,0 +1,215 @@
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+   }
+/* Стили для точек навигации */
+.slick-dots {
+  position: absolute;
+  bottom: 40px;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+  .slider {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 20px;
+    left: 18px;
+    right: 15px;
+  }
+  .slider img {
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+  }
+  .slider > div:not(:last-child) {
+    margin-right: -50px;
+  }
+.plaque[id="1"] {
+margin-top: 17px;
+height: 190px;
+background-color:#fdfbf8;
+padding: 10px 10px 10px 40px; /* добавлен левый внутренний отступ для иконки */
+position: relative; /* Устанавливаем родительский элемент позиционированным */
+left: 20px;
+border-radius: 25px;
+}
+h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left; /* Выравнивание текста по центру */
+  padding: 10px 10px 10px 40px; /* добавлен левый внутренний отступ для иконки */
+}
+h2 {
+  font-size: 24px;
+  color: #f8f6f6;
+  text-align: left;
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.price-tag {
+  width: 359px;
+  height: 180px;
+  position: relative;
+  left: 25px;
+  display: inline-block;
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.price-discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px 0 0 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.price {
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price-regular {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+}
+
+.price-sale {
+  color: #0a0a0a;
+}
+.telegram-link {
+  display: inline-block;
+  background-color: #00090e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: -55px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.telegram-link:hover {
+  background-color: #005580;
+}
+
+.telegram-link i {
+  margin-right: 10px;
+}
+.product-number {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #fcfafa;
+  margin-left: 28px;
+}
+.product-description {
+  width: 353px;
+  height: 300px;
+  margin-left: 23px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 16px;
+}
+
+.product-description h3 {
+  color: #383838;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.product-description p {
+  margin: 0;
+}
+
+.product-description ul {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.product-description li {
+  margin-bottom: 5px;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1c4;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+.logo h3 {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 33px;
+}
+.additional-info {
+  padding: 20px;
+  border: 0px solid #ccc;
+  height: 300px;
+}
+
+
+
+
+
