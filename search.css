@@ -6,9 +6,9 @@ input{
   width: 95%;
   height: 45px;
   border-radius: 30px;
-  font-size: 30px;
+  font-size: 50px;
   position: relative;
-  top: 14px;
+  top: -1px;
   background-color: rgb(233, 233, 233);
   color: rgb(0, 0, 0);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -17,12 +17,12 @@ input{
 }
 .material-icons{
   position: relative;
-  top: -20px;
-  left: 300px;
-  font-size: 57px;
+  top: -45px;
+  left: 280px;
   background: none;
   color: rgb(0, 0, 0);
 }
+
 button{
   background: none;
   border: none;
@@ -71,7 +71,8 @@ h1[id="3"]{
 ::placeholder{
   position: relative;
   left: 15px;
-  font-size: 26px;
+  bottom: 10px;
+  font-size: 22px;
 }
 body{
   background-color: rgb(244, 246, 247);
