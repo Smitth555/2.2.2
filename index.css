@@ -1,14 +1,14 @@
 
 body{
-  background: linear-gradient(rgb(215, 215, 255), rgb(208, 208, 255), rgb(213, 195, 255), rgb(235, 201, 255));
-}
+  background-color: rgb(240, 230, 230);
+ }
 input:focus {
 outline: none;
 }
 form{
 width: 90%;
 height: 700px;
-background: linear-gradient(rgb(180, 225, 255),rgb(125, 125, 255), rgb(143, 73, 255), rgb(143, 57, 255), rgb(191, 95, 255), rgb(200, 118, 255), rgb(228, 119, 255), rgb(249, 188, 255));
+background-color: rgb(240, 230, 230);
 margin-left: 5%;
 border-radius: 17px;
 box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
@@ -16,7 +16,7 @@ box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
 input[id="exampleInputEmail1"]{
    width: 90%;
    margin-left: 5%;
-   border-radius: 10px;  
+   border-radius: 0px;
   height: 40px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    border: none;
@@ -25,15 +25,17 @@ input[id="exampleInputEmail1"]{
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
   background-color: rgb(235, 233, 238);
   font-size: 20px;
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
 }
 .btn-btn-primary{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(33, 43, 88);
   border: none;
   width: 85%;
   margin-left: 7%;
   height: 55px;
   color: white;
-  border-radius: 10px;
+  border-radius: 0px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
   top: 45px;
@@ -41,7 +43,7 @@ input[id="exampleInputEmail1"]{
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
 }
 input[id="exampleCheck1"]{
-  border-radius: 10px;
+  border-radius: 0px;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -51,10 +53,12 @@ input[id="exampleCheck1"]{
   font-size: 20px;
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
   background-color: rgb(235, 233, 238);
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
 }
 
 input[id="exampleCheck2"]{
-  border-radius: 10px;
+  border-radius: 0px;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -64,10 +68,12 @@ input[id="exampleCheck2"]{
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
   font-size: 20px;
   background-color: rgb(235, 233, 238);
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
 }
   
 input[id="exampleCheck3"]{
-  border-radius: 10px;
+  border-radius: 0px;
   border: none;
   width: 90%;
   margin-left: 5%;
@@ -77,6 +83,8 @@ input[id="exampleCheck3"]{
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
   font-size: 20px;
   background-color: rgb(235, 233, 238);
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
 }
 p[id="1"]{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -117,7 +125,7 @@ p[id="price"]{
 }
 i{
   margin-right: 10px;
-  background: linear-gradient(to right, rgb(243, 110, 255), rgb(160, 160, 255)); /* Задаём переливающийся цвет */
+  background-color: wheat;
   -webkit-background-clip: text; /* Для совместимости с Safari/Chrome */
   -webkit-text-fill-color: transparent; /* Для совместимости с Safari/Chrome */
   animation: gradient 2s linear infinite; /* Настройка анимации */
