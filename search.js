@@ -6,11 +6,11 @@ function submitSearch(event) {
     // Выполняем проверку на основе введенного значения и перенаправляем на соответствующую страницу
     
     if (searchValue === 'одежда') {
-      window.location.href = 'product.html';
-    } else if (searchValue === 'банан') {
-      window.location.href = 'banana.html';
-    } else if (searchValue === 'апельсин') {
-      window.location.href = 'orange.html';
+      window.location.href = 'menu1.html';
+    } else if (searchValue === 'одеда') {
+      window.location.href = ' menu1.html';
+    } else if (searchValue === 'оджда') {
+      window.location.href = 'menu1.html';
     } else {
       window.location.href = 'default.html';
     }
