@@ -6,7 +6,7 @@ input{
   width: 95%;
   height: 45px;
   border-radius: 30px;
-  font-size: 50px;
+  font-size: 25px;
   position: relative;
   top: -1px;
   background-color: rgb(233, 233, 233);
@@ -71,7 +71,7 @@ h1[id="3"]{
 ::placeholder{
   position: relative;
   left: 15px;
-  bottom: 10px;
+  bottom: 3px;
   font-size: 22px;
 }
 body{
