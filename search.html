@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <h1>Поиск</h1>
 <form action="search-rezults.html" method="get" onsubmit="submitSearch(event)">
-    <input type="text" id="searchInput" name="search"><li><a href="#">
+    <input placeholder="Найти" type="text" id="searchInput" name="search"><li><a href="#">
       <button><i class="material-icons">search</i></a></li></button>
   </form>
   <div id="0"> 
@@ -112,6 +112,13 @@
     }
     h1[id="3"]{
       font-size: 30px;
+    }
+    ::placeholder{
+      position: relative;
+      left: 15px;
+    }
+    body{
+      background-color: rgb(244, 246, 247);
     }
   </style>
   <script>
