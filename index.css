@@ -1,0 +1,199 @@
+
+body{
+  background: linear-gradient(rgb(215, 215, 255), rgb(208, 208, 255), rgb(213, 195, 255), rgb(235, 201, 255));
+}
+input:focus {
+outline: none;
+}
+form{
+width: 90%;
+height: 700px;
+background: linear-gradient(rgb(180, 225, 255),rgb(125, 125, 255), rgb(143, 73, 255), rgb(143, 57, 255), rgb(191, 95, 255), rgb(200, 118, 255), rgb(228, 119, 255), rgb(249, 188, 255));
+margin-left: 5%;
+border-radius: 17px;
+box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
+}
+input[id="exampleInputEmail1"]{
+   width: 90%;
+   margin-left: 5%;
+   border-radius: 10px;  
+  height: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: none;
+   position: relative;
+   top: 160px;
+  box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
+  background-color: rgb(235, 233, 238);
+  font-size: 20px;
+}
+.btn-btn-primary{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  width: 85%;
+  margin-left: 7%;
+  height: 55px;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 45px;
+  font-size: 18.7px;
+  box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
+}
+input[id="exampleCheck1"]{
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  height: 40px;
+  position: relative;
+  top: -65px;
+  font-size: 20px;
+  box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
+  background-color: rgb(235, 233, 238);
+}
+
+input[id="exampleCheck2"]{
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  height: 40px;
+  position: relative;
+  top: 50px;
+  box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
+  font-size: 20px;
+  background-color: rgb(235, 233, 238);
+}
+  
+input[id="exampleCheck3"]{
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+  height: 40px;
+  position: relative;
+  top: 50px;
+  box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
+  font-size: 20px;
+  background-color: rgb(235, 233, 238);
+}
+p[id="1"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 40px;
+ left: 17px;
+ font-weight: bold;
+}
+
+p[id="2"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 50px;
+ left: 17px;
+ font-weight: bold;
+}
+p[id="3"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 50px;
+ left: 17px;
+ font-weight: bold;
+}
+p[id="price"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: rgb(49, 46, 78);
+  position: relative;
+  top: 50px;
+ left: 17px;
+ font-weight: bold;
+}
+i{
+  margin-right: 10px;
+  background: linear-gradient(to right, rgb(243, 110, 255), rgb(160, 160, 255)); /* Задаём переливающийся цвет */
+  -webkit-background-clip: text; /* Для совместимости с Safari/Chrome */
+  -webkit-text-fill-color: transparent; /* Для совместимости с Safari/Chrome */
+  animation: gradient 2s linear infinite; /* Настройка анимации */
+}
+::placeholder{
+  font-size: 17px;
+  position: relative;
+  left: 7px;
+}
+
+/* Стили для ПК */
+@media screen and (min-width: 1024px) {
+  
+body{
+  background: linear-gradient(rgb(215, 215, 255), rgb(208, 208, 255), rgb(213, 195, 255), rgb(235, 201, 255));
+}
+input:focus {
+outline: none;
+}
+form{
+width: 50%;
+height: 700px;
+background: linear-gradient(rgb(180, 225, 255),rgb(125, 125, 255), rgb(143, 73, 255), rgb(143, 57, 255), rgb(191, 95, 255), rgb(200, 118, 255), rgb(228, 119, 255), rgb(249, 188, 255));
+margin-left: 25%;
+border-radius: 17px;
+box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
+}
+.btn-btn-primary{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  width: 65%;
+  margin-left: 17%;
+  height: 55px;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 45px;
+  font-size: 18.7px;
+  box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
+}
+p[id="1"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 40px;
+ left: 37px;
+ font-weight: bold;
+}
+
+p[id="2"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 50px;
+ left: 37px;
+ font-weight: bold;
+}
+p[id="3"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 50px;
+ left: 37px;
+ font-weight: bold;
+}
+p[id="price"]{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: rgb(49, 46, 78);
+  position: relative;
+  top: 50px;
+ left: 37px;
+ font-weight: bold;
+}
+}

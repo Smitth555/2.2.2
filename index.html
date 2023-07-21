@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>TG-MASSAGER</title>
+</head>
+<body>  
+
+  <form id="tg">
+
+  <div class="mb-3">
+    <p id="1">Номер телефона</p>
+    <input  id="exampleInputEmail1" name="number" placeholder=" Ваше имя">
+  </div>
+  
+  <div class="mb-3 form-check">
+    <p id="2">Ваше имя</p>
+    <input  name="name" id="exampleCheck1" value="+998">
+  </div>
+
+  <div class="mb-3 form-check">
+    <p id="2">Адрес доставки</p>
+    <input  name="local" id="exampleCheck2" placeholder="Укажите адрес доставки">
+  </div>
+
+  
+  <div class="mb-3 form-check">
+    <p id="2">Коментарий для курьера</p>
+    <input  name="coment" id="exampleCheck3" placeholder="Коментарий для курьера">
+  </div>
+  
+      <p id="3">Итоговая стоимость с учетом доставки:</p>
+      <p id="price">190.00 $</p>
+
+      <button type="submit" class="btn-btn-primary">
+        <i class="fas fa-box"></i> Оформить заказ
+      </button>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="Message.js"></script>
+</body>
+</html>

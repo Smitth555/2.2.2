@@ -1,0 +1,397 @@
+img{
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+    border-radius: 60px;
+}
+h1{
+    font-size: 90px;
+    font-family: 'Belanosima', sans-serif;
+    margin-left: 47px;
+    font-weight: bold;
+    color: rgb(0, 0, 75);
+    font-family: 'Helvetica', sans-serif;
+}
+h1[id="3"]{
+  color: rgb(255, 255, 255);
+}
+body{
+  background: linear-gradient(rgb(227, 227, 255), rgb(248, 222, 255));
+}
+h1[id="3"]{
+  font-size: 87px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 70px;
+  font-weight: bold;
+}
+h2{
+    font-size: 72px;
+    margin-left: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(80, 80, 80);
+}
+h3{
+    font-size: 81px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-left: 45px;
+}
+p{
+    font-size: 41px;
+    margin-left: 45px;
+    width: 90%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+}
+button{
+    width: 50%;
+    height: 126px;
+    border-radius: 80px;
+    font-size: 69px;
+    position: fixed;
+    bottom: 30px;
+    left: 420px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.material-symbols-outlined{
+   color: black;
+}
+a {
+  text-decoration: none;
+}
+div[id="1"]{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 230px;
+    bottom: 0;
+    right: 0px;
+    background-color: #000000;
+    border-radius: 70px 70px 0 0;
+}
+button a {
+  text-decoration: none;
+  color: #000000;
+}
+.color-switcher {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .color-switcher input[type="radio"] {
+    display: none;
+  }
+  
+  .color-switcher label {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-right: 35px;
+    cursor: pointer;
+  }
+  
+  .color-switcher label:hover {
+    opacity: 0.8;
+  }
+  
+  .color-switcher input[type="radio"]:checked + label {
+    border: 1px solid black;
+  }
+  .product-sizes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 50px;
+  margin-left: -120px;
+}
+.size {
+  width: 100px;
+  height: auto;
+  margin: 0 5px;
+  padding: 5px 10px;
+  margin-right: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 5px solid #000000;
+  border-radius: 50px;
+  text-align: center;
+}
+.horizontal-field {
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+.product-card {
+  width: auto;
+  height: auto;
+  margin-right: 40px;
+  border-radius: 10px;
+ }
+ .product-card img {
+   width: 480.0px;
+   height: auto;
+   border-radius: 0px;
+   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+   border-radius: 30px;
+ }
+ 
+.product-card[id="5"] {
+  width: auto;
+  height: auto;
+  margin-left: 60px;
+  margin-top: 0px;
+ }
+
+ .product-card h2[id="unical"] {
+    width: 480px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #4c00ff;
+    margin-top: 70px;
+  }
+  .product-card .price {
+    font-weight: 600;
+    color: #000000;
+    font-size: 60px;
+    position: relative;
+    top: -40px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+  }
+  div[id="9"]{
+    height: 500px;
+  }
+  
+.social-bar[id="8"] {
+    padding: 10px 0;
+    text-align: center;
+    height: 200px;
+    margin-left: 60px;
+  }
+  .social-icon[id="1"] {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 74px;
+    color: #000000;
+    text-align: center;
+    margin-top: -80px;
+    margin-right: 120px;
+  }
+  p[id="unical"]{
+    text-align: center;
+    font-size: 54px;
+    position: relative;
+    top: -80px;
+    margin-left: -30px;
+  }
+  .add-to-cart{
+    width: 95%;
+    height: 110px;
+    border-radius: 65px;
+    background-color: rgb(119, 0, 230);
+    position: relative;
+    left: 20px;
+    top: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+/* Стили для ПК */
+@media screen and (min-width: 1024px) {
+  img{
+    width: 44.0%;
+    height: auto;
+    margin-left: 2.5%;
+    border-radius: 30px;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Belanosima', sans-serif;
+    margin-left: 47px;
+    font-weight: bold;
+    color: rgb(0, 0, 75);
+    font-family: 'Helvetica', sans-serif;
+    position: relative;
+    left: 600px;
+    bottom: 600px;
+}
+h1[id="3"]{
+  color: rgb(255, 255, 255);
+}
+body{
+  background: linear-gradient(rgb(227, 227, 255), rgb(248, 222, 255));
+}
+h1[id="3"]{
+  display: none;
+}
+h2{
+    font-size: 36px;
+    margin-left: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(80, 80, 80);
+}
+h3{
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-left: 22.5px;
+    position: relative;
+    left: 630px;
+    bottom: 620px;
+}
+p[id="q"]{
+  color: none;
+}
+
+p[id="w"]{
+  color: none;
+}
+p{
+    font-size: 20.5px;
+    margin-left: 22.5px;
+    width: 45%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    position: relative;
+    left: 620px;
+    bottom: 860px;
+}
+button{
+    width: 20%;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20.5px;
+    position: relative;
+    bottom: 850px;
+    left: 660px;
+    border: soliq 2px  rgb(46, 22, 131) ;
+    background-color: rgb(206, 81, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.material-symbols-outlined{
+   color: black;
+}
+a {
+  text-decoration: none;
+}
+div[id="1"]{
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: 115px;
+    bottom: 0;
+    right: 0px;
+    background: none;
+    border-radius: 35px 35px 0 0;
+}
+button a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.color-switcher {
+    display: flex;
+    margin-left: 25px;
+    position: relative;
+    bottom: 670px;
+    left: 620px;
+  }
+  
+  .color-switcher input[type="radio"] {
+    display: none;
+  }
+  
+  .color-switcher label {
+    width: 42.5px;
+    height: 42.5px;
+    border-radius: 50%;
+    margin-right: 17.5px;
+    cursor: pointer;
+  }
+  
+  .color-switcher label:hover {
+    opacity: 0.8;
+  }
+  
+  .color-switcher input[type="radio"]:checked + label {
+    border: 1px solid black;
+  }
+  .product-sizes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 720px;
+    left: 240px;
+}
+.size {
+  width: 50px;
+  height: auto;
+  margin: 0 5px;
+  padding: 5px 10px;
+  margin-right: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  text-align: center;
+}
+.horizontal-field {
+  display: none;
+}
+  div[id="9"]{
+    height: 500px;
+  }
+  
+.social-bar[id="8"] {
+    padding: 10px 0;
+    text-align: center;
+    height: 100px;
+    margin-left: 30px;
+  }
+  .social-icon[id="1"] {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: -40px;
+    margin-right: 60px;
+  }
+  p[id="unical"]{
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    top: -40px;
+    margin-left: -15px;
+  }
+  .add-to-cart{
+    width: 37%;
+    height: 55px;
+    border-radius: 32.5px;
+    background-color: rgb(119, 0, 230);
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+    left: 80px;
+    top: -490px;
+  }
+}
