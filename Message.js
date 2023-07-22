@@ -54,17 +54,6 @@ function handleClick(event) {
     document.body.appendChild(message);
   } 
 }
-document.getElementById("tg").addEventListener("submit", function(event){
-  document.getElementById("orderButton").disabled = true; // Отключение кнопки отправки
-
-  // Вывод сообщения о запрете повторной отправки
-  var message1 = document.createElement("div");
-  message1.id = "message1"; // Добавление идентификатора "message1" к элементу
-  message1.innerHTML = "Форма уже отправлена. Повторная отправка запрещена.";
-  document.body.appendChild(message1);
-
-  event.preventDefault(); // Предотвращает фактическую отправку формы
-});
 
 
   
