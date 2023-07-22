@@ -30,3 +30,22 @@ console.log(message);
         console.log('Konec');
     })
 });
+// Получаем кнопку по ее идентификатору
+var button = document.getElementById('orderButton');
+
+// Функция, которая будет вызываться при нажатии на кнопку
+function handleClick(event) {
+
+  // Вставьте здесь код, который должен выполняться при нажатии на кнопку
+  alert('Ваш заказ оформлен!');
+}
+
+// Назначаем обработчик события на нажатие кнопки
+button.addEventListener('click', handleClick);
+function handleClick(event) {
+    var message = document.createElement('div');
+    message.innerHTML = 'Ваш заказ оформлен !';
+    message.classList.add('message');
+    document.body.appendChild(message);
+  }
+  
