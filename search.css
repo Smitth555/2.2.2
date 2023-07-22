@@ -8,19 +8,11 @@ input{
   border-radius: 30px;
   font-size: 25px;
   position: relative;
-  top: -1px;
   background-color: rgb(233, 233, 233);
   color: rgb(0, 0, 0);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: solid 0.6px;
   border-color: rgb(255, 187, 0);
-}
-.material-icons{
-  position: relative;
-  top: -45px;
-  left: 280px;
-  background: none;
-  color: rgb(0, 0, 0);
 }
 
 button{
