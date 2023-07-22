@@ -3,20 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="stylesheet" href="search.css">
+     <script src="search.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>По вашему запросу нечего не найдено</h1>
+    <h6>По вашему запросу нечего не найдено</h6>
+  
+
+    <form action="search-rezults.html" method="get" onsubmit="submitSearch(event)">
+        <input placeholder="Найти" type="text" id="searchInput" name="search"><li><a href="#">
+          <button><i class="material-icons" style="font-size: 39px;">search</i></a></li></button>
+      </form>
+        <img src="icons8-nothing-found-100.png">
+        
     <style>
-        h1{
+        h6{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: rgb(133, 133, 133);
             font-size: 30px;
             width: 80%;
             margin-left: 15%;
             position: relative;
-            top: 350px;
+            top: 400px;
         }
+        input{
+            position: relative;
+            bottom: 180px;
+        }
+        img{
+            position: relative;
+            left: 140px;
+            top: 30px;
+        }
+.material-icons{
+  position: relative;
+  top: -225px;
+  left: 280px;
+  background: none;
+  color: rgb(0, 0, 0);
+}
     </style>
 </body>
 </html>
