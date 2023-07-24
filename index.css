@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(245, 239, 239);
+  background-image: url("fashion.jpg");
  }
 input:focus {
 outline: none;
@@ -8,34 +8,35 @@ outline: none;
 form{
 width: 90%;
 height: 700px;
-background-color: rgb(255, 250, 250);
+background-color: rgb(255, 255, 255);
 margin-left: 5%;
-border-radius: 1px;
+border-radius: 31px;
 box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
+opacity: calc(90%);
 }
 input[id="exampleInputEmail1"]{
    width: 90%;
    margin-left: 5%;
-   border-radius: 0px;
-  height: 40px;
+   border-radius: 40px;
+  height: 50px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    border: none;
    position: relative;
    top: 160px;
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
-  background-color: rgb(235, 233, 238);
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
   border: solid 1px;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(0, 17, 255);
 }
 .btn-btn-primary{
-  background-color: rgb(33, 43, 88);
+  background-color: rgb(0, 39, 212);
   border: none;
   width: 85%;
   margin-left: 7%;
   height: 55px;
   color: white;
-  border-radius: 0px;
+  border-radius: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
   top: 45px;
@@ -43,48 +44,48 @@ input[id="exampleInputEmail1"]{
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
 }
 input[id="exampleCheck1"]{
-  border-radius: 0px;
+  border-radius: 25px;
   border: none;
   width: 90%;
   margin-left: 5%;
-  height: 40px;
+  height: 50px;
   position: relative;
   top: -65px;
   font-size: 20px;
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
-  background-color: rgb(235, 233, 238);
+  background-color: rgb(255, 255, 255);
   border: solid 1px;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(25, 0, 255);
 }
 
 input[id="exampleCheck2"]{
-  border-radius: 0px;
+  border-radius: 25px;
   border: none;
   width: 90%;
   margin-left: 5%;
-  height: 40px;
+  height: 50px;
   position: relative;
   top: 50px;
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
   font-size: 20px;
-  background-color: rgb(235, 233, 238);
+  background-color: rgb(255, 255, 255);
   border: solid 1px;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(0, 4, 255);
 }
   
 input[id="exampleCheck3"]{
-  border-radius: 0px;
+  border-radius: 25px;
   border: none;
   width: 90%;
   margin-left: 5%;
-  height: 40px;
+  height: 50px;
   position: relative;
   top: 50px;
   box-shadow: 0 10px 40px rgba(163, 163, 163, 0.2);
   font-size: 20px;
-  background-color: rgb(235, 233, 238);
+  background-color: rgb(255, 255, 255);
   border: solid 1px;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(4, 0, 255);
 }
 p[id="1"]{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -125,7 +126,7 @@ p[id="price"]{
 }
 i{
   margin-right: 10px;
-  background-color: wheat;
+  background-color: rgb(255, 255, 255);
   -webkit-background-clip: text; /* Для совместимости с Safari/Chrome */
   -webkit-text-fill-color: transparent; /* Для совместимости с Safari/Chrome */
   animation: gradient 2s linear infinite; /* Настройка анимации */
@@ -136,19 +137,20 @@ i{
   left: 7px;
 }
 .message {
-  background-color: #f0eaea;
+  background-color: #000000;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 0px;
+  border: 1px solid #000000;
+  border-radius: 20px 20px 0px 20px;
   font-size: 22px;
   color: #333;
-  width: 80%;
-  margin-left: 5%;
+  width: 88%;
+  margin-left: -1%;
   margin-top: -200px;
-  height: 50px;
+  height: 82px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
   z-index: 9999;
+  color: white;
 }
 /* Стили для ПК */
 @media screen and (min-width: 1024px) {

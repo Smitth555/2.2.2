@@ -49,7 +49,7 @@ function handleClick(event) {
 
   if (isFormValid) {
     var message = document.createElement('div');
-    message.innerHTML = 'Ваш заказ оформлен ждите ответа!';
+    message.innerHTML = 'Ваш заказ оформлен ждите ответа! Наш курьерер свяжется с вами в ближайшее время';
     message.classList.add('message');
     document.body.appendChild(message);
   } 
