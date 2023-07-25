@@ -33,7 +33,7 @@ p{
 .card-block{
     width: 100%;
     height: 500px;
-    background-color: rgb(243, 240, 235);
+    background-color: rgb(230, 230, 230);
     display: flex;
     overflow-y: auto;
     position: relative;
@@ -50,11 +50,11 @@ p{
 .card{
     height: auto;
     width: auto;
-    margin-left: 20px;
+    margin-left: 18px;
     margin-top: 10px;
 }
 .img-card{
-    width: 170px;
+    width: 150px;
     height: auto;
 }
 h1{
