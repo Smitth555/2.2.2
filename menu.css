@@ -56,8 +56,6 @@ p{
 .img-card{
     width: 170px;
     height: auto;
-    border: solid 8px;
-    border-color: white;
 }
 h1{
     font-size: 24px;
@@ -70,14 +68,16 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(92, 92, 92);
     position: relative;
-    bottom: 40px;
+    bottom: 34px;
     right: 10px;
+    font-weight: bold;
 }
 .size{
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     bottom: 15px;
     right: 8px;
-    color: rgb(85, 85, 85);
+    color: rgb(177, 177, 177);
+    font-weight: bold;
 }
