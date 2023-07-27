@@ -3,11 +3,11 @@ ul {
     list-style-type: none;
   }
   span{
-    font-size: 13px;
+    font-size: 9px;
     color: rgb(53, 50, 85);
     position: relative;
-    top: -10px;
-    left: -15px;
+    bottom: 135px;
+    left: 7px;
     font-weight: 900;
   }
       body{
@@ -26,7 +26,7 @@ ul {
         bottom: 20px;
       }
       img{
-        width: 175px;
+        width: 150px;
         margin-left: -20px;
         border-radius: 8px;
         margin-top: 20px;
@@ -41,7 +41,6 @@ ul {
   }
   
   #cartItems li {
-    width: 54%; /* Ширина каждого элемента списка */
     margin-bottom: 20px;
     margin-left: -34px;
     
@@ -55,8 +54,8 @@ ul {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 20px;
-    left: -120px;
+    bottom: 100px;
+    left: -100px;
     color: rgb(95, 95, 95);
   }
   
@@ -102,4 +101,20 @@ ul {
 
 .material-icons[id="1"] {
   color: #edede9;
+}
+p{
+  font-size: 10px;
+  font-weight: normal;
+  position: relative;
+  left: 140px;
+  bottom: 100px;
+  color: #86848d;
+}
+h6{
+  font-size: 10px;
+  font-weight: normal;
+  position: relative;
+  left: 140px;
+  bottom: 120px;
+  color: rgb(0, 4, 255);
 }

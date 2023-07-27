@@ -35,16 +35,29 @@
   
     // Retrieve the existing cart items from localStorage
     var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-  
-    // Create a new product object with image source, text description, price, and link
-    var product = {
-      imageSrc: imageSrc,
-      textDescription: textDescription,
-      price: price,
-      link: link,
-      PRICE2: PRICE2
-    };
-  
+            
+          
+
+    var textDescription = "Женский пиджак от ZARA";
+var price = 100;
+var PRICE2 = 690 + " 000"+ " сум";
+var link = "product.html";
+var text1 = "Дополнительный текст 1";
+var text2 = "Дополнительный текст 2";
+var text3 = "Дополнительный текст 3";
+
+// Create a new product object with image source, text description, price, and link
+var product = {
+  imageSrc: imageSrc,
+  textDescription: textDescription,
+  price: price,
+  link: link,
+  PRICE2: PRICE2,
+  text1: text1,
+  text2: text2,
+  text3: text3
+};
+
     // Add the new product to the cart items array
     cartItems.push(product);
   

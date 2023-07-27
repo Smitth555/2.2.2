@@ -59,6 +59,16 @@ if (savedItems) {
     description2.textContent = item.PRICE2;
     li.appendChild(description2);
 
+    const description3 = document.createElement("p");
+    description3.textContent = item.text1;
+    li.appendChild(description3);
+
+    const description4 = document.createElement("h6");
+    description4.textContent = item.text2;
+    li.appendChild(description4);
+
+
+
     cartItems.appendChild(li);
   });
 }
