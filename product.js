@@ -43,7 +43,7 @@ var price = 100;
 var PRICE2 = 690 + " 000"+ " сум";
 var link = "product.html";
 var text1 = "Дополнительный текст 1";
-var text2 = "Дополнительный текст 2";
+var text2 = "Дополнительный текст 2 олнительный текст 2 олнительный текст 2 олнительный текст 2 олнительный текст 2 олнительный текст 2 олнительный текст 2";
 var text3 = "Дополнительный текст 3";
 
 // Create a new product object with image source, text description, price, and link

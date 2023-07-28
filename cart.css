@@ -31,7 +31,7 @@ ul {
         width: 150px;
         margin-left: -20px;
         border-radius: 8px;
-        margin-top: 20px;
+        margin-top: -120px;
       }
       
   #cartItems {
@@ -56,7 +56,7 @@ ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     bottom: 40px;
-    left: -40px;
+    left: -54px;
     height: 10px;
     color: rgb(95, 95, 95);
   }
