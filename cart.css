@@ -3,12 +3,13 @@ ul {
     list-style-type: none;
   }
   span{
-    font-size: 9px;
-    color: rgb(53, 50, 85);
+    font-size: 15px;
+    color: rgb(69, 62, 150);
     position: relative;
-    bottom: 135px;
-    left: 7px;
-    font-weight: 900;
+    bottom: 175px;
+    left: 142px;
+    font-weight: normal;
+    width: 400px;
   }
       body{
         font-size: 33px;
@@ -16,6 +17,7 @@ ul {
         color: rgb(0, 0, 0);
         background-color: rgb(232, 236, 240);
         font-weight: 900;
+        width: 200px;
       }
       h2{
         font-size: 35px;
@@ -36,14 +38,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: -40px;
+    margin-top: -170px;
     margin-left: 29px;
   }
   
   #cartItems li {
     margin-bottom: 20px;
     margin-left: -34px;
-    
   }
   
   #cartItems img {
@@ -54,8 +55,9 @@ ul {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    bottom: 100px;
-    left: -100px;
+    bottom: 40px;
+    left: -40px;
+    height: 10px;
     color: rgb(95, 95, 95);
   }
   
@@ -107,14 +109,16 @@ p{
   font-weight: normal;
   position: relative;
   left: 140px;
-  bottom: 100px;
+  bottom: 180px;
   color: #86848d;
+  background-color: #84ff9f;
+  border-radius: 60px;
 }
 h6{
   font-size: 10px;
   font-weight: normal;
   position: relative;
   left: 140px;
-  bottom: 120px;
-  color: rgb(0, 4, 255);
+  bottom: 200px;
+  color: rgb(34, 34, 43);
 }
