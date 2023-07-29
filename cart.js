@@ -1,34 +1,3 @@
-// Функция для очистки корзины
-function clearCart() {
-    localStorage.removeItem("cartItems");
-    renderCart();
-  }
-
-  function renderCart() {
-    const cartItems = document.getElementById("cartItems");
-    cartItems.innerHTML = "";
-
-    const savedItems = localStorage.getItem("cartItems");
-
-    if (savedItems) {
-      const items = JSON.parse(savedItems);
-      items.forEach(item => {
-        const li = document.createElement("li");
-
-        const image = document.createElement("img");
-        image.src = item.imageSrc;
-        image.alt = "Изображение товара";
-        li.appendChild(image);
-
-        const description = document.createElement("span");
-        description.textContent = item.textDescription;
-        li.appendChild(description);
-
-        cartItems.appendChild(li);
-        
-      });
-    }
-  }
 
   renderCart();
   function renderCart() {
@@ -58,16 +27,6 @@ if (savedItems) {
     const description2 = document.createElement("label");
     description2.textContent = item.PRICE2;
     li.appendChild(description2);
-
-    const description3 = document.createElement("p");
-    description3.textContent = item.text1;
-    li.appendChild(description3);
-
-    const description4 = document.createElement("h6");
-    description4.textContent = item.text2;
-    li.appendChild(description4);
-
-
 
     cartItems.appendChild(li);
   });
