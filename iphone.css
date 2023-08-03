@@ -5,7 +5,7 @@ h1{
     top: 50px;
     font-family: 'Belanosima', sans-serif;
 font-family: 'Roboto Mono', monospace;
-font-size: 35px;
+font-size: 25px;
 font-weight: bolder;
 }
 p{
@@ -14,7 +14,7 @@ p{
     font-family: 'Belanosima', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-weight: normal;
-width: 90%;
+width: 95%;
 position: relative;
 left: 2.5%;
 top: 50px;
@@ -52,13 +52,13 @@ top: 50px;
     font-weight: bolder;
 }
 .text-block-1{
-    background-image: url("photo_2023-08-02_21-26-53.jpg");
+    background: linear-gradient(to bottom, black, rgb(57, 48, 92));
     width: 90%;
     position: relative;
     left: 2.5%;
-    height: 200px;
+    height: 170px;
     background-size: contain;
-    top: 50px;
+    top: 70px;
     border-radius:9px;
 }
 .p-1{
@@ -67,20 +67,19 @@ top: 50px;
     width: 90%;
     position: relative;
     left: 5.5%;
-    top: 40px;
+    top: 20px;
 }
 .btn-3{
     width: 80%;
     height: 55px;
     position: relative;
     left: 10%;
-    top: 90px;
-    border-radius: 70px;
-    background-color: blue;
+    top: 70px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, black, rgb(49, 49, 49));
     font-weight: bold;
     color: white;
     border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Задайте значения тени */
 }
 .img-3{
     width: 95%;
