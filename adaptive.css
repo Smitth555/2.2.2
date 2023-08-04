@@ -11,14 +11,14 @@ body{
     background-size: contain;
 }
 h2{
-    font-size: 15px;
+    font-size: 17px;
     position: relative;
     top: 100px;
     left: 2.5%;
     width: 90%;
     right: 2.5%;
     color: rgb(214, 255, 255);
-    font-weight: normal;
+    font-weight: bolder;
 }
 img{
     width: 100%;
@@ -32,6 +32,8 @@ img{
     border-radius: 30px;
     font-weight: bolder;
     color: rgb(0, 0, 0);
+    position: relative;
+    left: 2.5%;
 }
 
 .btn-2{
@@ -63,4 +65,7 @@ li{
 ol{
     position: relative;
     top: 100px;
+  bottom: 200px;
+  width: 100%;
+  background-color: black;
 }
