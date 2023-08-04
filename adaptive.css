@@ -16,7 +16,6 @@ h2{
     top: 100px;
     left: 2.5%;
     width: 90%;
-    right: 2.5%;
     color: rgb(214, 255, 255);
     font-weight: bolder;
 }
@@ -57,9 +56,17 @@ img{
     position: relative;
     top: 90px;
 }
+span{
+    color: aqua;
+}
 li{
     color: white;
     margin-top: 33px;
+    font-size: 18px;
+    width: 85%;
+    position: relative;
+    left: 7.5%;
+    top: 20px;
 
 }
 ol{
@@ -67,5 +74,74 @@ ol{
     top: 100px;
   bottom: 200px;
   width: 100%;
+  left: -37px;
   background-color: black;
+}
+.block-v{
+    width: 104%;
+    height: 380px;
+    background-color: rgb(68, 68, 68);
+    position: relative;
+    top: 140px;
+    left: -10px;
+}
+.number{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(134, 134, 255), rgb(239, 122, 255));
+    position: relative;
+    left: 9.5%;
+    top: 50px;
+    font-size: 23px;
+    font-weight: bolder;
+    border: none;
+}
+
+.number-2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(247, 255, 134), rgb(255, 161, 84));
+    position: relative;
+    left: 9.5%;
+    top: 50px;
+    font-size: 23px;
+    font-weight: bolder;
+    border: none;
+}
+
+.number-3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(119, 250, 255), rgb(148, 140, 255));
+    position: relative;
+    left: 9.5%;
+    top: 50px;
+    font-size: 23px;
+    font-weight: bolder;
+    border: none;
+}
+.number-h1{
+    font-size: 26px;
+    position: relative;
+    left: 33%;
+    bottom: 9px;
+    color: rgb(214, 255, 255);
+}
+.number-p{
+    font-size: 18px;
+    color: white;
+    width: 70%;
+    position: relative;
+    left: 22%;
+    top: 22px;
+    font-weight: normal;
+    font-family: 'Helvetica', sans-serif;
+}
+.price{
+    position: relative;
+    top: 40px;
+    left: 22%;
 }
