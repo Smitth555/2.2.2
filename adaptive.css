@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 h1{
     width: 80%;
     position: relative;
@@ -17,7 +19,7 @@ body{
     background-color: black;
 }
 .block{
-    background-image: url("photo_2023-08-04_11-12-19.jpg");
+    background-image: url("photo_2023-08-05_17-26-20.jpg");
     background-size: contain;
     width: 100%;
     height: 700px;
@@ -41,6 +43,7 @@ h2{
     top: 130px;
     left: 10%;
     font-weight: bold;
+    border-radius: 5px;
 }
 img{
     width: 100%;
@@ -277,11 +280,34 @@ input::placeholder {
     position: relative;
     left: 15px;
   }
-  h3{
-    font-size: 25px;
+  h4{
+    font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 249, 213);
+    color: rgb(255, 255, 255);
     width: 80%;
     position: relative;
-    left: 10%;
+    left: 8%;
+  }
+  h3{
+    color: rgb(201, 255, 248);
+    font-size: 25px;
+    position: relative;
+    left: 27px;
+  }
+  .obout-block{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    top: 50px;
+    
+  }
+  .tg{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 100px;
+    border-radius: 50%;
+    right: 50px;
   }
