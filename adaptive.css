@@ -311,3 +311,14 @@ input::placeholder {
     border-radius: 50%;
     right: 50px;
   }
+  .social-bar{
+    background: none;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+  }
+  .social-icon{
+    font-size: 30px;
+    color: white;
+    margin-right: 46px;
+  }
