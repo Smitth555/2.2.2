@@ -69,12 +69,13 @@ img{
     top: 90px;
 }
 span{
-    color: rgb(15, 63, 63);
+    color: rgb(155, 207, 207);
+    font-size: 24px;
 }
 li{
-    color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
     margin-top: 33px;
-    font-size: 18px;
+    font-size: 20px;
     width: 85%;
     position: relative;
     left: 7.5%;
@@ -85,14 +86,18 @@ ol{
     position: relative;
     top: 100px;
   bottom: 200px;
-  width: 100%;
+  width: 104%;
   left: -37px;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(49, 49, 49);
 }
 .block-w{
     background-color: rgb(2, 2, 2);
  position: relative;
  bottom: 203px;
+}
+h1{
+    position: relative;
+    left: 2.5%;
 }
 .block-v{
     width: 100%;
