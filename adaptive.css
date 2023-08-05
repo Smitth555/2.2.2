@@ -4,11 +4,23 @@ h1{
     left: 5%;
     color: white;
 }
+.time{
+    color: rgb(177, 255, 249);
+    position: relative;
+    top: 33px;
+    left: 20px;
+    font-size: 20px;
+}
 body{
     font-family: 'Helvetica', sans-serif;
     color: rgb(0, 0, 0);
+    background-color: black;
+}
+.block{
     background-image: url("photo_2023-08-04_11-12-19.jpg");
     background-size: contain;
+    width: 100%;
+    height: 700px;
 }
 h2{
     font-size: 17px;
@@ -79,25 +91,26 @@ ol{
 }
 .block-w{
     background-color: rgb(2, 2, 2);
- 
+ position: relative;
+ bottom: 203px;
 }
 .block-v{
     width: 100%;
-    height: 450px;
+    height: 380px;
     position: relative;
     top: 140px;
 }
 .number-btn{
-    width: 120px;
-    height: 45px;
-    background-color: white;
+    width: 140px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
     color: black;
     border: none;
     position: relative;
-    left: 49px;
+    left: 20px;
     top: 43px;
     font-weight: bold;
-    border-radius: 22px;
+    border-radius: 30px;
 }
 .fast{
     background-color: black;
@@ -158,11 +171,11 @@ color: aqua;
     color: rgb(214, 255, 255);
 }
 .number-p{
-    font-size: 18px;
+    font-size: 14px;
     color: white;
-    width: 70%;
+    width: 90%;
     position: relative;
-    left: 50px;
+    left: 20px;
     top: 22px;
     font-weight: normal;
     font-family: 'Helvetica', sans-serif;
@@ -170,21 +183,10 @@ color: aqua;
 .price{
     position: relative;
     top: 40px;
-    left: 50px;
+    left: 20px;
+    font-size: 29px;
 }
-.telegram-button {
-    width: 70px;
-    height: 70px;
-    background-color: lightblue;
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .telegram-button i {
-    margin-right: 5px;
-    font-size: 30px;
-    color: black;
-  }
+.img-block-1{
+    position: relative;
+    bottom: 141px;
+}
