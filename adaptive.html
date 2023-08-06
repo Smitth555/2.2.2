@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-PxtnMJNL5TlRkgtWVmeWXrL3l6MjDcDhBFlLUshn2T2TcX3a7mmGUYNYjbPZi755mDE/4uvETEs0EVWL8o2XWQ==" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="block">
-        <h1>Полная поддержка вашего цифрового присутствия: <span>наше агентство создает успешные веб-сайты, ориентированные на результаты!</span></h1>
+        <h1>Наше агентство создает успешные веб-сайты, ориентированные на результаты</span></h1>
     <div class="img-block">
         <img src="software-developer-gf07d8ee18_1280.jpg" alt="">
     </div>
@@ -65,14 +68,14 @@
             <img class="rmb-4"src="photo_2023-08-02_21-26-53.jpg" alt="">
         </div>
 
-        <div class="form-input">
-            <form action="">
+        <div class="form-input" >
+            <form action="" id="tg">
                 <h3>Обратная связь</h3>
                 <h4>Если вы хотите заказать сайт, вы можете оставить заявку прямо сейчас!</h4>
-                <input type="number" placeholder="Введите номер">
-                <input type="text" placeholder="Введите имя">
-                <input type="email" placeholder="Введите email(по желанию)">
-                <button class="sumbit" type="submit">Отправить</button>
+                <input type="number" placeholder="Введите номер" name="number" required>
+                <input type="text" placeholder="Введите имя" name="name" required>
+                <input type="email" placeholder="Введите email(по желанию)" name="email" required>
+                <button class="sumbit" type="submit" id="orderButton">Отправить</button>
             </form>
         </div>
         <div class="obout-block">
