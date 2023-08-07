@@ -381,3 +381,7 @@ input::placeholder {
   .feature-block{
     margin-top: 40px;
   }
+  .form-input-2{
+    position: relative;
+    top: 300px;
+  }
