@@ -1,0 +1,35 @@
+.logo-block{
+    width: 102%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    backdrop-filter: blur(10px); /* Здесь можно указать желаемую степень размытия */
+    background-color: rgba(170, 170, 170, 0.5); /* Можно добавить прозрачность для более смягченного эффекта */
+    top: -10px;
+    left: -10px;
+    z-index: 9999;
+}
+.logo-text{
+    color: black;
+    font-size: 33px;
+    position: relative;
+    left: 10%;
+    bottom: 13.5px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.button-block{
+    position: relative;
+    top: 80px;
+}
+.text-block-1{
+    width: 85%;
+    position: relative;
+    left: 7.5%;
+    background-color: rgb(141, 140, 140);
+    backdrop-filter: blur(2px); /* Здесь можно указать желаемую степень размытия */;
+   height: 400px;
+   top: 100px;
+   border-radius: 33px;
+   background-color: rgba(255, 255, 255, 0.3); /* прозрачность 50% */
+}

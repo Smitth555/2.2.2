@@ -1,0 +1,162 @@
+
+h1{
+    font-family: 'Belanosima', sans-serif;    
+}
+.ul-3{
+    font-size: 17px;
+    color: rgb(54, 54, 54);
+    font-family: 'Belanosima', sans-serif;    
+    color: rgb(206, 206, 206);
+font-weight: 400;
+position: relative;
+top: 54px;
+}
+.price-check{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    margin-top: -15px;
+height: 620px;
+}
+h2{
+    font-family: 'Belanosima', sans-serif;    
+}
+.block-1{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(47, 47, 49);
+    position: relative;
+    bottom: 11px;
+}
+button{
+    border: none;
+    font-weight: bolder;
+}
+.btn-1{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    height: 56px;
+    border-radius: 40px;
+    background: linear-gradient(to right, rgb(107, 107, 255), rgb(193, 127, 255));
+    color: white;
+}
+.btn-2{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 70px;
+    height: 55px;
+    background: none;
+    border: solid 2px rgb(255, 255, 255);
+    color: white;
+    border-radius: 40px;
+}
+p{
+    
+    font-family: 'Belanosima', sans-serif;  
+    font-size: 16px;
+    color: rgb(209, 209, 209);
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 100px;
+}
+.block-2{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.block-2{
+    position: relative;
+    bottom: 23px;
+}
+.btn-3{
+    width: 60%;
+    position: relative;
+    left: 20%;
+    height: 50px;
+    background: linear-gradient(to right, rgb(132, 140, 255), rgb(137, 131, 255), rgb(230, 104, 255), rgb(174, 75, 255));
+    animation: gradient 5s infinite; 
+    color: white;
+    border-radius: 40px;
+}
+.gradient-text {
+    background: -webkit-linear-gradient(#ff00cc, #3333ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-5{
+    width: 80%;
+    height: 56px;
+    background-color: rgb(255, 138, 70);
+    color: white;
+    position: relative;
+    left: 10%;
+    top: 33px;
+    border-radius: 40px;
+}
+.block-3{
+    width: 100%;
+    height: 500px;
+    background-color: #5000ca;
+    position: relative;
+    top: 50px;
+    z-index: 9999;
+}
+.ul-1{
+    color: white;
+}
+li{
+    margin-top: 13px;
+    list-style-type: none;
+    font-family: 'Belanosima', sans-serif;    
+}
+input::placeholder{
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    
+    font-style: italic; /* Курсивное начертание */
+}
+input{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 50px;
+    border: solid 2px blueviolet;
+    border-radius: 40px;
+}
+input:focus {
+    border: none;
+  }
+  link[rel="icon"] {
+    border-radius: 50%;
+  }
+  .block-f{
+    width: 100%;
+    height: 380px;
+    border-radius: 40px;
+    margin-top: 40px;
+    border: solid 3px blueviolet;
+    background-image: url("paisley\ \(1\).webp");
+      }
+      .btn-6{
+        color: wheat;
+          background: linear-gradient(to right, aqua, blueviolet);
+          
+      }
+.btn-7{
+    width: 70%;
+    margin-left: 7.5%;
+    height: 60px;
+    border-radius: 40px;
+    border:  solid 3px white;
+    color: white;
+    margin-top: 30px;
+    background: none;
+}
